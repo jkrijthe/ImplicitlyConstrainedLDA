@@ -1,0 +1,169 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Nigam2000}
+\BIBentryALTinterwordspacing
+K.~Nigam, A.~K. McCallum, S.~Thrun, and T.~Mitchell, ``{Text classification
+  from labeled and unlabeled documents using EM},'' \emph{Machine learning},
+  vol.~34, pp. 1--34, 2000.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Elworthy1994}
+\BIBentryALTinterwordspacing
+D.~Elworthy, ``{Does Baum-Welch re-estimation help taggers?}'' in
+  \emph{Proceedings of the fourth conference on Applied natural language
+  processing}, 1994, pp. 53--58.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Weston2005}
+\BIBentryALTinterwordspacing
+J.~Weston, C.~Leslie, E.~Ie, D.~Zhou, A.~Elisseeff, and W.~S. Noble,
+  ``{Semi-supervised protein classification using cluster kernels.}''
+  \emph{Bioinformatics}, vol.~21, no.~15, pp. 3241--7, Aug. 2005.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chapelle2006}
+O.~Chapelle, B.~Sch\"{o}lkopf, and A.~Zien, \emph{{Semi-supervised
+  learning}}.\hskip 1em plus 0.5em minus 0.4em\relax MIT press, 2006.
+
+\bibitem{Cozman2006}
+F.~Cozman and I.~Cohen, ``{Risks of Semi-Supervised Learning},'' in
+  \emph{Semi-Supervised Learning}, O.~Chapelle, B.~Sch\"{o}lkopf, and A.~Zien,
+  Eds.\hskip 1em plus 0.5em minus 0.4em\relax MIT press, 2006, ch.~4, pp.
+  56--72.
+
+\bibitem{Loog2014a}
+\BIBentryALTinterwordspacing
+M.~Loog, ``{Semi-supervised linear discriminant analysis through
+  moment-constraint parameter estimation},'' \emph{Pattern Recognition
+  Letters}, vol.~37, pp. 24--31, Mar. 2014.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Krijthe2013}
+\BIBentryALTinterwordspacing
+J.~H. Krijthe and M.~Loog, ``{Implicitly Constrained Semi-Supervised Least
+  Squares Classification},'' Tech. Rep., 2013.
+\BIBentrySTDinterwordspacing
+
+\bibitem{McLachlan1975}
+G.~J. McLachlan, ``{Iterative Reclassification Procedure for Constructing an
+  Asymptotically Optimal Rule of Allocation in Discriminant Analysis},''
+  \emph{Journal of the American Statistical Association}, vol.~70, no. 350, pp.
+  365--369, 1975.
+
+\bibitem{Taylor1977}
+P.~Taylor and G.~J. Mclachlan, ``{Estimating the Linear Discriminant Function
+  from Initial Samples Containing a Small Number of Unclassified
+  Observations},'' \emph{Journal of the American Statistical Association},
+  vol.~72, no. 358, pp. 403--406, 1977.
+
+\bibitem{Yarowsky1995}
+\BIBentryALTinterwordspacing
+D.~Yarowsky, ``{Unsupervised word sense disambiguation rivaling supervised
+  methods},'' \emph{Proceedings of the 33rd annual meeting on Association for
+  Computational Linguistics}, pp. 189--196, 1995.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Abney2004}
+\BIBentryALTinterwordspacing
+S.~Abney, ``{Understanding the yarowsky algorithm},'' \emph{Computational
+  Linguistics}, vol.~30, no.~3, pp. 365--395, 2004.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Dempster1977}
+\BIBentryALTinterwordspacing
+A.~Dempster, N.~Laird, and D.~Rubin, ``{Maximum likelihood from incomplete data
+  via the EM algorithm},'' \emph{Journal of the Royal Statistical Society.
+  Series B}, vol.~39, no.~1, pp. 1--38, 1977.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Zhu2003}
+\BIBentryALTinterwordspacing
+X.~Zhu, Z.~Ghahramani, and J.~Lafferty, ``{Semi-supervised learning using
+  gaussian fields and harmonic functions},'' in \emph{Proceedings of the 20th
+  International Conference on Machine Learning}, 2003, pp. 912--919.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bennett1998}
+K.~P. Bennett and A.~Demiriz, ``{Semi-supervised support vector machines},'' in
+  \emph{Advances in Neural Information Processing Systems 11}, 1998.
+
+\bibitem{Joachims1999}
+T.~Joachims, ``{Transductive inference for text classification using support
+  vector machines},'' in \emph{Proceedings of the 16th International Conference
+  on Machine Learning}.\hskip 1em plus 0.5em minus 0.4em\relax Morgan Kaufmann
+  Publishers, 1999, pp. 200--209.
+
+\bibitem{Grandvalet2005}
+\BIBentryALTinterwordspacing
+Y.~Grandvalet and Y.~Bengio, ``{Semi-supervised learning by entropy
+  minimization},'' in \emph{Advances in Neural Information Processing Systems
+  17}, L.~K. Saul, Y.~Weiss, and L.~Bottou, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Cambridge, MA: MIT Press, 2005, pp. 529--536.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fan2008}
+\BIBentryALTinterwordspacing
+B.~Fan, Z.~Lei, and S.~Z. Li, ``{Normalized LDA for semi-supervised
+  learning},'' in \emph{8th IEEE International Conference on Automatic Face \&
+  Gesture Recognition}, Sept. 2008, pp. 1--6.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Cai2007}
+\BIBentryALTinterwordspacing
+D.~Cai, X.~He, and J.~Han, ``{Semi-supervised Discriminant Analysis},'' in
+  \emph{IEEE 11th International Conference on Computer Vision}, 2007, pp. 1--7.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Loog2010}
+\BIBentryALTinterwordspacing
+M.~Loog, ``{Constrained Parameter Estimation for Semi-Supervised Learning: The
+  Case of the Nearest Mean Classifier},'' in \emph{Proceedings of the 2010
+  European Conference on Machine learning and Knowledge Discovery in
+  Databases}, 2010, pp. 291--304.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Loog2012b}
+\BIBentryALTinterwordspacing
+M.~Loog and A.~C. Jensen, ``{Constrained log-likelihood-based semi-supervised
+  linear discriminant analysis},'' in \emph{Structural, Syntactic, and
+  Statistical Pattern Recognition}, 2012, pp. 327--335.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bache2013}
+\BIBentryALTinterwordspacing
+K.~Bache and M.~Lichman, ``{\{UCI\} Machine Learning Repository},'' 2013.
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bartlett2006}
+P.~L. Bartlett, M.~I. Jordan, and J.~D. McAuliffe, ``{Convexity,
+  Classification, and Risk Bounds},'' \emph{Journal of the American Statistical
+  Association}, vol. 101, no. 473, pp. 138--156, Mar. 2006.
+
+\bibitem{Lehmann1998}
+E.~L. Lehmann and G.~Casella, \emph{{Theory of Point Estimation}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer-Verlag, 1998.
+
+\bibitem{Loog2014b}
+M.~Loog and A.~C. Jensen, ``{Semi-Supervised Nearest Mean Classification
+  through a constrained Log-Likelihood},'' \emph{IEEE Transactions on Neural
+  Networks and Learning Systems}, 2014, conditionally accepted.
+
+\end{thebibliography}

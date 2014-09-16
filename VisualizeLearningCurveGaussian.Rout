@@ -1,0 +1,98 @@
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.1.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+
+Attaching package: ‘devtools’
+
+The following object is masked from ‘package:base’:
+
+    system.file
+
+
+Welcome at Wed May 21 16:00:33 2014 
+> library(RSSL)
+Loading required package: class
+Loading required package: sampling
+Loading required package: MASS
+Loading required package: e1071
+Loading required package: foreign
+Loading required package: bootstrap
+Loading required package: plyr
+Loading required package: Matrix
+Loading required package: pls
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:bootstrap’:
+
+    crossval
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+Loading required package: optimx
+Loading required package: numDeriv
+
+Attaching package: ‘RSSL’
+
+The following object is masked _by_ ‘.GlobalEnv’:
+
+    table.CrossValidation
+
+> load("Results/LearningcurveGaussian.RData")
+> library(reshape)
+
+Attaching package: ‘reshape’
+
+The following object is masked from ‘package:Matrix’:
+
+    expand
+
+The following objects are masked from ‘package:plyr’:
+
+    rename, round_any
+
+The following object is masked from ‘package:class’:
+
+    condense
+
+> library(ggplot2)
+> require(gridExtra)
+Loading required package: gridExtra
+Loading required package: grid
+> 
+> # For the Gaussian plot:
+> tc<-errorcurves[[1]]
+> tc$results<-tc$results[,-11,,]
+> dimnames(tc$results)[[3]]<-c("LDA","LDAoracle","MCLDA","EMLDA","SLLDA","ICLDA")
+> class(tc)<-"ErrorCurve"
+> pdf("Figures/learningcurvegaussian.pdf",width=7,height=5)
+> plot.ErrorCurve(tc,measurement=1,dataset_names="2D Multivariate Normal",legendsetting="right")
+> dev.off()
+null device 
+          1 
+> 
+
+Goodbye at  Wed May 21 16:00:35 2014 
+> proc.time()
+   user  system elapsed 
+  5.613   0.184   5.865 
