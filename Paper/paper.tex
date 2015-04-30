@@ -566,14 +566,14 @@ While one could claim that ICLDA is more robust, one could also expect ICLDA to 
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[scale=0.45]{../Figures/toyplots-crop.pdf}
+\includegraphics[scale=0.45]{toyplots-crop.pdf}
 \caption{Behaviour on the two-class two dimensional gaussian datasets, with 10 labeled objects and 990 unlabeled objects. The first row shows the scatterplot and the trained responsibilities for respectively ICLDA and EMLDA on a dataset where the decision boundary does not adhere to the assumptions of EMLDA. The second row shows the results when the decision boundary is in between the two Gaussian classes. The black line indicates the decision boundary of a supervised learner trained using only the labeled data. Note that in the first row, the responsibilities of EM are very different from the true labels, while IC is not as sensitive to this problem.}
 \label{fig:toyplots}
 \end{figure*}
 
 \begin{figure}[!t]
 \centering
-\includegraphics[scale=0.40]{../Figures/learningcurvegaussian-crop.pdf}
+\includegraphics[scale=0.40]{learningcurvegaussian-crop.pdf}
 \caption{Semi-supervised learning curve on the Gaussian data set using 500 repeats. The shaded regions indicate one standard error around the mean. Since their assumptions hold exactly, SLLDA and EMLDA work very well. ICLDA also outperforms the supervised LDA.}
 \label{fig:learningcurvegauss}
 \end{figure}
@@ -607,13 +607,13 @@ A cross-validation experiment was carried out as follows. Each of the datasets w
 
 To study the behaviour of these classifiers for differing amount of unlabeled data, we estimated semi-supervised learning curves by randomly drawing $\max(2d,10)$ labeled objects from the datasets, and using an increasing randomly chosen set as unlabeled data. The remaining objects formed the test set. This procedure was repeated 500 times and the average and standard error of the classification error and negative log likelihood were determined. The learning curves for 3 datasets can be found in Figure \ref{fig:errorcurves}.
 
-\input{../Figures/cvtable-error.tex}
-\input{../Figures/cvtable-loss.tex}
+\input{cvtable-error.tex}
+\input{cvtable-loss.tex}
 
 
 \begin{figure*}[!t]
 \centering
-\includegraphics[scale=0.5]{../Figures/errorcurves-crop.pdf}
+\includegraphics[scale=0.5]{errorcurves-crop.pdf}
 \caption{Learning curves for increasing amounts of unlabeled data for the error rate as well as the loss (negative log likelihood) for three datasets using 500 repeats. The shaded regions indicate one standard error around the mean.}
 \label{fig:errorcurves}
 \end{figure*}
@@ -713,7 +713,7 @@ An open question regarding the objective function associated with ICLDA is to wh
 We find that the behaviour of EMLDA is more erratic than that of SLLDA. The hard label assignments could have a regularizing effect on the semi-supervised solutions, making self-learning a good and fast alternative to self-learning. Note that safer versions of SLLDA and EMLDA could be obtained by introducing a weight parameter to control the influence of the unlabeled data \cite{McLachlan1975}. In the limited labeled data setting, it is hard to correctly set this parameter. While this may help when dealing with larger sample sizes, the constraint approaches bring us closer to methods that always perform at least as well as their supervised counterpart. 
 
 \section{Conclusion}
-ICLDA is a principled and robust adaptation of LDA to the semi-supervised setting. In terms of error rates, it may be overly conservative. When measured in terms of the loss on the training set, however, it outperforms other semi-supervised methods. It therefore seems that there are opportunities for robust semi-supervised learners, although the performance criterion that we should consider may not be the error rate, but rather the loss that the supervised learner minimizes \cite{Loog2014b}.
+ICLDA is a principled and robust adaptation of LDA to the semi-supervised setting. In terms of error rates, it may be overly conservative. When measured in terms of the loss on the test set, however, it outperforms other semi-supervised methods. It therefore seems that there are opportunities for robust semi-supervised learners, although the performance criterion that we should consider may not be the error rate, but rather the loss that the supervised learner minimizes \cite{Loog2014b}.
 
 % conference papers do not normally have an appendix
 
