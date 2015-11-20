@@ -1,21 +1,21 @@
 all: experiments visuals preparation report
 
-experiments: experiment1 experiment2 experiment3
+experiments: experiment_learningcurvesgaussian experiment_learningcurves experiment_crossvalidation
 
 experiment_learningcurvesgaussian:
-	R CMD BATCH Code/ExperimentLearningCurveGaussian.R
+	Rscript Code/ExperimentLearningCurveGaussian.R
 
 experiment_learningcurves:
-	R CMD BATCH Code/ExperimentLearningCurvesICLDA.R
+	Rscript Code/ExperimentLearningCurvesICLDA.R
 
 experiment_crossvalidation:
-	R CMD BATCH Code/ExperimentCVSSLLDA.R
+	Rscript Code/ExperimentCVSSLLDA.R
 
 visuals:
-	R CMD BATCH Code/VisualizeCVSSLLDA.R
-	R CMD BATCH Code/VisualizeLearningCurveGaussian.R
-	R CMD BATCH Code/VisualizeLearningCurvesICLDA.R
-	R CMD BATCH Code/FigureToyplots.R
+	Rscript Code/VisualizeCVSSLLDA.R
+	Rscript Code/VisualizeLearningCurveGaussian.R
+	Rscript Code/VisualizeLearningCurvesICLDA.R
+	Rscript Code/FigureToyplots.R
 
 preparation:
 	cd Figures/ && \

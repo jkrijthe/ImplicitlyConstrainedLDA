@@ -2,7 +2,7 @@ These are the resources used to generate Jesse H. Krijthe & Marco Loog's "Implic
 
 #Main Requirements (used to generate the original paper)
 R (3.0.2)
-RSSL (0.2)
+RSSL (commit: 81458902dd6644caca4e1f8c9f20c3473e4fa3e4)
 pdflatex
 
 Suggested:

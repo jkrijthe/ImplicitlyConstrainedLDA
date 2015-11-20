@@ -2,7 +2,7 @@
 library(RSSL)
 
 ## Load data
-load("~/Data/Datasets.RData")
+load("Data/Datasets.RData")
 datasets<-datasets[c(1:9,14)]
 repeats<-20
 n_labeled<-"enough2"

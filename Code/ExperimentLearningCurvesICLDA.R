@@ -8,7 +8,7 @@ library(ggplot2)
 require(gridExtra)
 
 ## Load data
-load("~/Data/Datasets.RData")
+load("Data/Datasets.RData")
 datasets<-datasets[c(3,4,5)]
 # datasets<-list("2DGaussian"=Generate2ClassGaussian(1000,2,0.8))
 # modelforms<-list("2DGaussian"=formula(y~.))
